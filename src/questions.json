@@ -1,0 +1,170 @@
+{
+    "title": "Miriam's Baby Shower Quiz!",
+    "description": "Test your knowledge of all things babies and Sweden with this fun quiz!",
+    "questions": [
+      {
+        "question": "What is the most popular month for babies to be born in Sweden?",
+        "answers": [
+          { "text": "January", "isCorrect": false },
+          { "text": "August", "isCorrect": true },
+          { "text": "December", "isCorrect": false },
+          { "text": "April", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "How many hours a day does a newborn baby sleep on average?",
+        "answers": [
+          { "text": "3-4 hours", "isCorrect": false },
+          { "text": "8-10 hours", "isCorrect": true },
+          { "text": "12-14 hours", "isCorrect": false },
+          { "text": "16-18 hours", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What color can newborn babies see best?",
+        "answers": [
+          { "text": "Red", "isCorrect": true },
+          { "text": "Blue", "isCorrect": false },
+          { "text": "Green", "isCorrect": false },
+          { "text": "Purple", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the traditional Swedish christening ceremony for newborns called?",
+        "answers": [
+          { "text": "Naming ceremony", "isCorrect": true },
+          { "text": "Welcome party", "isCorrect": false },
+          { "text": "Baptism", "isCorrect": false },
+          { "text": "Confirmation", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Which Swedish stroller manufacturer is known for its high quality?",
+        "answers": [
+          { "text": "Stokke", "isCorrect": true },
+          { "text": "Bugaboo", "isCorrect": false },
+          { "text": "Maclaren", "isCorrect": false },
+          { "text": "Silver Cross", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the traditional Swedish food to serve at a babyshower?",
+        "answers": [
+          { "text": "Smörgåstårta", "isCorrect": true },
+          { "text": "Köttbullar", "isCorrect": false },
+          { "text": "Punschrulle", "isCorrect": false },
+          { "text": "Lax", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "How many diapers does a baby in diapers go through on average?",
+        "answers": [
+          { "text": "20 per day", "isCorrect": false },
+          { "text": "50 per day", "isCorrect": true },
+          { "text": "100 per day", "isCorrect": false },
+          { "text": "150 per day", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the soft fabric often used for baby blankets called?",
+        "answers": [
+          { "text": "Fleece", "isCorrect": false },
+          { "text": "Terrycloth", "isCorrect": true },
+          { "text": "Wool", "isCorrect": false },
+          { "text": "Linen", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What body part heals the fastest on a baby?",
+        "answers": [
+          { "text": "Skin", "isCorrect": true },
+          { "text": "Bones", "isCorrect": false },
+          { "text": "Stomach", "isCorrect": false },
+          { "text": "Brain", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What is the small hat that newborn babies wear on their heads called?",
+        "answers": [
+          { "text": "Hat", "isCorrect": true },
+          { "text": "Hood", "isCorrect": false },
+          { "text": "Cap", "isCorrect": true },
+          { "text": "Beanie", "isCorrect": true }  
+        ]
+      },
+      {
+        "question": "What is the traditional Swedish lullaby called?",
+        "answers": [
+          { "text": "Sommarnatt", "isCorrect": true },  
+          { "text": "Godnatt min lilla vän", "isCorrect": false },  
+          { "text": "Mors lilla Olle", "isCorrect": false },        
+          { "text": "Brumbassevisa", "isCorrect": false }    
+        ]
+      },
+      {
+        "question": "What is the emergency number for medical assistance in Sweden?",
+        "answers": [
+          { "text": "112", "isCorrect": true },
+          { "text": "911", "isCorrect": false },        
+          { "text": "999", "isCorrect": false },        
+          { "text": "000", "isCorrect": false }       
+        ]
+      },
+      {
+        "question": "What is a common Swedish baby carrier called?",
+        "answers": [
+          { "text": "Sele", "isCorrect": true },  
+          { "text": "Vagn", "isCorrect": false },    
+          { "text": "Blöja", "isCorrect": false },     
+          { "text": "Filt", "isCorrect": false }    
+        ]
+      },
+      {
+        "question":
+         "What is the most popular baby girl's name in 2023?",
+        "answers": [
+        { "text": "Vera", "isCorrect": false },
+        { "text": "Elsa", "isCorrect": true },
+        { "text": "Olivia", "isCorrect": false },
+        { "text": "Anna", "isCorrect": false }
+        ]
+        },
+      {
+        "question": "What famous Swedish children's book character lives in a house on a rooftop?",
+        "answers": [
+          { "text": "Pippi Longstocking", "isCorrect": true },
+          { "text": "Emil i Lönneberga", "isCorrect": false },
+          { "text": "Lotta på Bråkmakargatan", "isCorrect": false }, 
+          { "text": "Pettson och Findus", "isCorrect": false } 
+        ]
+      },
+      {
+        "question": "What is a popular Swedish baby food brand?",
+        "answers": [
+          { "text": "Semper", "isCorrect": true },
+          { "text": "ICA", "isCorrect": false },   
+          { "text": "Marabou", "isCorrect": false }, 
+          { "text": "IKEA", "isCorrect": false }  
+        ]
+      },
+      {
+        "question": "What is the traditional way to announce a newborn's arrival in Sweden?",
+        "answers": [
+          { "text": "Hanging a blue or pink flag outside the home", "isCorrect": true },
+          { "text": "Sending out birth announcements", "isCorrect": false },
+          { "text": "Posting on social media", "isCorrect": false },
+          { "text": "Lighting a candle in the window", "isCorrect": false }
+        ]
+      },
+      {
+        "question":
+         "What is the most popular baby boy's name in 2022?",
+        "answers": [
+        { "text": "Oscar", "isCorrect": false },
+        { "text": "Alexander", "isCorrect": false },
+        { "text": "William", "isCorrect": true },
+        { "text": "Erik", "isCorrect": false }
+        ]
+        }
+]}
+  
