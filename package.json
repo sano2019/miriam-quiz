@@ -1,8 +1,8 @@
 {
-  "name": "quiz",
+  "name": "Miriam's Baby Shower",
+  "homepage" : "https://sano2019.github.io/miriam-quiz",
   "version": "0.1.0",
   "private": true,
-  "main": "src/index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
