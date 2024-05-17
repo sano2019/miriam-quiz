@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/miriam-quiz/static/css/main.8ea907f6.css",
-    "main.js": "/miriam-quiz/static/js/main.23e41215.js",
+    "main.css": "/miriam-quiz/static/css/main.52ae6d57.css",
+    "main.js": "/miriam-quiz/static/js/main.f9663d57.js",
     "static/js/453.433ac504.chunk.js": "/miriam-quiz/static/js/453.433ac504.chunk.js",
     "static/media/9.png": "/miriam-quiz/static/media/9.66809a944c4f6d56fc90.png",
     "static/media/4.png": "/miriam-quiz/static/media/4.1535e9cfb8c366800f71.png",
@@ -31,12 +31,12 @@
     "static/media/23.png": "/miriam-quiz/static/media/23.01223c8dfdcd2610a237.png",
     "static/media/6.png": "/miriam-quiz/static/media/6.18b6fe01084a2a769a56.png",
     "index.html": "/miriam-quiz/index.html",
-    "main.8ea907f6.css.map": "/miriam-quiz/static/css/main.8ea907f6.css.map",
-    "main.23e41215.js.map": "/miriam-quiz/static/js/main.23e41215.js.map",
+    "main.52ae6d57.css.map": "/miriam-quiz/static/css/main.52ae6d57.css.map",
+    "main.f9663d57.js.map": "/miriam-quiz/static/js/main.f9663d57.js.map",
     "453.433ac504.chunk.js.map": "/miriam-quiz/static/js/453.433ac504.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ea907f6.css",
-    "static/js/main.23e41215.js"
+    "static/css/main.52ae6d57.css",
+    "static/js/main.f9663d57.js"
   ]
 }
