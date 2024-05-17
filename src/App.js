@@ -57,8 +57,8 @@ const handleNextQuestion = () => {
       <h1>{parsedData.title}</h1>
       { !started ? (<div className='container'>
         <img src={require('./images/1.png')} alt='quiz' />  
+        <h3>{parsedData.description}</h3>
         <button onClick={()=> setStarted(true)}>Start Quiz</button>
-      <h3>{parsedData.description}</h3>
 </div>) :(
       <div>{showScore ? (
         <div className='score-section'>
