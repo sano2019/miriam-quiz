@@ -6,28 +6,51 @@ function App() {
 
   const colors = ['red', 'blue', 'green', 'purple'];
   const parsedData = JSON.parse(JSON.stringify(data));
-  const questions = parsedData.questions.map(question => ({
-    ...question,
-    answers: question.answers.sort(() => Math.random() -0.5),
-  }));
-
+  // const questions = parsedData.questions.map(question => ({
+  //   ...question,
+  //   answers: question.answers.sort(() => Math.random() -0.5),
+  // }));
+  const questions = parsedData.questions;
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [showScore, setShowScore] = useState(false);
   const [score, setScore] = useState(0);
   const [started, setStarted] = useState(false);
+  const [selectedAnswer, setSelectedAnswer] = useState(null);
 
-  const handleAnswerOptionClick = (isCorrect) => {
+
+  // const handleAnswerOptionClick = (isCorrect) => {
+  //   if (isCorrect) {
+  //     setScore(score + 1);
+  //   }
+
+  //   const nextQuestion = currentQuestion + 1;
+  //   if (nextQuestion < questions.length) {
+  //     setCurrentQuestion(nextQuestion);
+  //   } else {
+  //     setShowScore(true);
+  //   }
+  // };
+
+  const [isAnswered, setIsAnswered] = useState(false);
+
+  const handleAnswerOptionClick = (isCorrect, index) => {
+    setSelectedAnswer(index);
     if (isCorrect) {
       setScore(score + 1);
     }
-
-    const nextQuestion = currentQuestion + 1;
-    if (nextQuestion < questions.length) {
-      setCurrentQuestion(nextQuestion);
-    } else {
-      setShowScore(true);
-    }
+    setIsAnswered(true);
   };
+
+const handleNextQuestion = () => {
+  const nextQuestion = currentQuestion + 1;
+  if (nextQuestion < questions.length) {
+    setCurrentQuestion(nextQuestion);
+  } else {
+    setShowScore(true);
+  }
+  setIsAnswered(false);
+};
+
 
   return (
     <div className='app'>
@@ -52,7 +75,7 @@ function App() {
             <div className='question-text'>{questions[currentQuestion].question}</div>
           </div>
           <div className='answer-section'>
-  {questions[currentQuestion].answers.map((answer, index) => (
+  {/* {questions[currentQuestion].answers.map((answer, index) => (
     <button 
       onClick={() => handleAnswerOptionClick(answer.isCorrect)} 
       key={index} 
@@ -60,7 +83,37 @@ function App() {
     >
       {answer.text}
     </button>
-  ))}
+  ))} */}
+  
+  {
+  questions[currentQuestion].answers.map((answer, index) => (
+    <button
+      key={index}
+      onClick={() => {
+        if (!isAnswered) {
+          handleAnswerOptionClick(answer.isCorrect, index);
+        }
+      }}
+      disabled={isAnswered}
+      style={
+        isAnswered
+          ? answer.isCorrect
+            ? { backgroundColor: 'green' }
+            : selectedAnswer === index
+            ? { backgroundColor: 'red' }
+            : {}
+          : {}
+      }
+    >
+      {answer.text}
+    </button>
+  ))
+}
+{
+  isAnswered && (
+    <button className="next-button" onClick={handleNextQuestion}>Next</button>
+  )
+}
 </div>
         </>
       )}</div>)}

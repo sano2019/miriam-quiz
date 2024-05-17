@@ -38,10 +38,12 @@ h1 {
 }
 
 .answer-section {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 10px;
   align-items: center;
+  justify-content: space-between;
 }
 
 button {
@@ -53,6 +55,8 @@ button {
   transition: background-color 0.3s ease;
   color: white;
   background-color: black;
+  border-radius: 10px;
+
 }
 
 button:hover {
@@ -72,4 +76,13 @@ button:hover {
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
+}
+
+.answer-section button {
+  flex: 1 0 48%;
+}
+.next-button {
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 100%;
 }
