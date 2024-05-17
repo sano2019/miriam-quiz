@@ -1,24 +1,40 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 .app {
-  font-family: sans-serif;
-  text-align: center;
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-.question-section {
-  margin-bottom: 32px;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 20vh);
+}
+
+.container img,
+.container button {
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.score-section, .question-count, .question-text {
+  text-align: center;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.score-section div,
+.score-section button {
+  margin-bottom: 20px;
 }
 
 .answer-section {
@@ -26,43 +42,34 @@ code {
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
   align-items: center;
-  margin-bottom: 32px;
 }
 
-.answer-section button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+button {
+  padding: 10px 20px;
   font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 12px;
-  transition-duration: 0.4s;
-}
-
-.answer-section button:hover {
-  background-color: #45a049;
-}
-
-.answer-section button {
-  background-color: #4CAF50; /* Green */
   border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  border-radius: 4px;
   cursor: pointer;
-  border-radius: 12px;
-  transition-duration: 0.4s;
+  transition: background-color 0.3s ease;
+  color: white;
+  background-color: black;
 }
 
-.answer-section button:hover {
-  background-color: #45a049;
+button:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.question-image{
+  width: calc(100% - 2rem);
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.question-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
 }
