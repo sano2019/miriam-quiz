@@ -24,22 +24,22 @@
         ]
       },
       {
-        "question": "How many hours a day does a newborn baby sleep on average?",
+        "question": "How many hours a day does a newborn baby sleep on average in the first 6 months?",
         "answers": [
           {
-            "text": "3-4 hours",
+            "text": "6 hours",
             "isCorrect": false
           },
           {
-            "text": "8-10 hours",
+            "text": "15 hours",
             "isCorrect": true
           },
           {
-            "text": "12-14 hours",
+            "text": "12 hours",
             "isCorrect": false
           },
           {
-            "text": "16-18 hours",
+            "text": "9 hours",
             "isCorrect": false
           }
         ]
